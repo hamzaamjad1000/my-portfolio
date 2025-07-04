@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hamza's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header with name and nav bar -->
+  <header>
+    <div class="logo">Hamza Amjad</div>
+    <nav>
+      <ul>
+        <a href="#top" class="home-icon"><i class="fas fa-home"></i></a>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="profile.jpg" alt="Hamza's profile picture" class="profile-img">
+    <p>Hello! I’m Hamza, a passionate web developer currently in my 6th semester of Software Engineering. I love building websites that are creative and user-friendly.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+        <p>HTML</p>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+        <p>CSS</p>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+        <p>JavaScript</p>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+        <p>GitHub</p>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" />
+        <p>VS Code</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
+
+<!-- Projects Section -->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project">
+        <h3>SAH Elite Co. Website</h3>
+        <p>A professional full-stack business website for a manufacturing company using React, Next.js, and Django.</p>
+      </div>
+      <div class="project">
+        <h3>Student Result Management System</h3>
+        <p>A JavaFX-based desktop application to manage student results for schools and colleges.</p>
+      </div>
+      <div class="project">
+        <h3>Inventory Tracker</h3>
+        <p>A web-based tool to track inventory, stock, and supplier data using HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Recommendations Section -->
+<section id="recommendations">
+    <h2>Recommendations</h2>
+    <div class="recommendation-container">
+      <div class="recommendation">
+        <p>"Hamza is a dedicated and fast-learning developer. His commitment to quality is impressive."</p>
+        <h4>- Sarah Malik, Tech Mentor</h4>
+      </div>
+      <div class="recommendation">
+        <p>"I had the pleasure of reviewing Hamza's work and was impressed by his clean code and creativity."</p>
+        <h4>- Ali Raza, Senior Developer</h4>
+      </div>
+      <div class="recommendation">
+        <p>"Hamza brings energy and innovation to every project he works on. A reliable team player."</p>
+        <h4>- Ayesha Khan, Project Manager</h4>
+      </div>
+    </div>
+  </section>
+  
+  <!-- New Recommendation Form -->
+<section id="add-recommendation">
+    <h2>Add Your Recommendation</h2>
+    <form id="recommendationForm">
+      <textarea id="recommendationText" placeholder="Write your recommendation..." required></textarea>
+      <input type="text" id="recommenderName" placeholder="Your name" required />
+      <button type="submit">Submit Recommendation</button>
+    </form>
+  </section>
+  
+  <script src="script.js"></script>
